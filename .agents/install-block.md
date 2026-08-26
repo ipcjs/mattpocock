@@ -22,9 +22,22 @@ It's in Claude Code's official marketplace, so there's nothing to add first, and
 
 </canonical-block>
 
-## Codex, and other agents: skills.sh
+## Codex: the plugin
 
-The plugin is Claude Code only. Everywhere else, [skills.sh](https://skills.sh/mattpocock/skills) copies editable skill files into the project. Use the whole-set form on `README.md`:
+The Codex plugin is distributed from the `ipcjs/mattpocock` fork because the change is not accepted upstream. Add its marketplace, then install the complete plugin:
+
+<canonical-block name="codex">
+
+```bash
+codex plugin marketplace add ipcjs/mattpocock
+codex plugin add mattpocock-skills@ipcjs
+```
+
+</canonical-block>
+
+## Other agents: skills.sh
+
+[skills.sh](https://skills.sh/mattpocock/skills) copies editable skill files into the project for Agent Skills-compatible tools without a native plugin. Use the whole-set form on `README.md`:
 
 <canonical-block name="skills-sh-whole-set">
 
@@ -52,9 +65,9 @@ npx skills@latest update <name>
 
 `skills@latest` is the pinned spelling in all three. The pages under `docs/` used to carry their own copy of these commands; those blocks are now deleted rather than corrected, because the site renders the install commands itself.
 
-## The two routes are exclusive
+## Pick one route per agent
 
-The plugin is a managed, read-only bundle you subscribe to. skills.sh writes files you own and edit. Installing both leaves the user with every skill twice: always say "pick one".
+The native plugins are managed, read-only bundles you subscribe to. skills.sh writes files you own and edit. Installing a native plugin and the skills.sh copies in the same agent leaves the user with every skill twice: always say "pick one".
 
 ## Not the install story
 

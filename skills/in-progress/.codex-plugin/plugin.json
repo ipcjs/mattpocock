@@ -1,0 +1,42 @@
+{
+  "name": "matt-in-progress",
+  "version": "1.2.4",
+  "description": "Matt Pocock's in-progress skills published for testing and feedback.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/ipcjs/mattpocock",
+  "license": "MIT",
+  "keywords": [
+    "beta",
+    "skills",
+    "experiments",
+    "feedback"
+  ],
+  "skills": [
+    "./claude-handoff",
+    "./implement-spec",
+    "./loop-me",
+    "./retro",
+    "./setup-ts-deep-modules",
+    "./writing-beats",
+    "./writing-fragments",
+    "./writing-shape"
+  ],
+  "interface": {
+    "displayName": "Matt In Progress",
+    "shortDescription": "Beta skills published for testing and feedback",
+    "longDescription": "A collection of in-progress skills that are public for testing and feedback but are not part of the promoted plugin.",
+    "developerName": "Matt Pocock",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://www.aihero.dev/s/skills-newsletter",
+    "defaultPrompt": [
+      "Help me try an in-progress skill for this task."
+    ]
+  }
+}

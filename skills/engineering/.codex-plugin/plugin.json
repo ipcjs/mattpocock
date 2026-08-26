@@ -1,0 +1,53 @@
+{
+  "name": "matt-engineering",
+  "version": "1.2.4",
+  "description": "Matt Pocock's engineering skills for planning, implementation, testing, review, and technical decisions.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/ipcjs/mattpocock",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "tdd",
+    "code-review",
+    "domain-modeling"
+  ],
+  "skills": [
+    "./ask-matt",
+    "./code-review",
+    "./codebase-design",
+    "./diagnosing-bugs",
+    "./domain-modeling",
+    "./grill-with-docs",
+    "./implement",
+    "./improve-codebase-architecture",
+    "./prototype",
+    "./research",
+    "./resolving-merge-conflicts",
+    "./setup-matt-pocock-skills",
+    "./tdd",
+    "./to-spec",
+    "./to-tickets",
+    "./triage",
+    "./wayfinder",
+    "./wizard"
+  ],
+  "interface": {
+    "displayName": "Matt Engineering",
+    "shortDescription": "Skills for day-to-day software engineering",
+    "longDescription": "A focused collection of engineering skills for planning, implementation, testing, debugging, review, and technical decision-making.",
+    "developerName": "Matt Pocock",
+    "category": "Engineering",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://www.aihero.dev/s/skills-newsletter",
+    "defaultPrompt": [
+      "Help me choose the right engineering skill for this task."
+    ]
+  }
+}

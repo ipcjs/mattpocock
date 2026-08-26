@@ -1,0 +1,38 @@
+{
+  "name": "matt-misc",
+  "version": "1.2.4",
+  "description": "Matt Pocock's miscellaneous skills kept for occasional use.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/ipcjs/mattpocock",
+  "license": "MIT",
+  "keywords": [
+    "miscellaneous",
+    "skills",
+    "git",
+    "scaffolding"
+  ],
+  "skills": [
+    "./git-guardrails-claude-code",
+    "./migrate-to-shoehorn",
+    "./scaffold-exercises",
+    "./setup-pre-commit"
+  ],
+  "interface": {
+    "displayName": "Matt Misc",
+    "shortDescription": "Miscellaneous skills for occasional use",
+    "longDescription": "A small collection of miscellaneous skills retained for occasional workflows and experiments.",
+    "developerName": "Matt Pocock",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://www.aihero.dev/s/skills-newsletter",
+    "defaultPrompt": [
+      "Help me choose a skill for this occasional workflow."
+    ]
+  }
+}

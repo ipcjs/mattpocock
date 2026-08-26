@@ -1,0 +1,42 @@
+{
+  "name": "matt-productivity",
+  "version": "1.2.4",
+  "description": "Matt Pocock's productivity skills for clearer thinking, communication, and handoffs.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/ipcjs/mattpocock",
+  "license": "MIT",
+  "keywords": [
+    "productivity",
+    "skills",
+    "grilling",
+    "handoff",
+    "writing"
+  ],
+  "skills": [
+    "./grill-me",
+    "./grilling",
+    "./handoff",
+    "./teach",
+    "./to-questionnaire",
+    "./wait-what",
+    "./writing-for-agents"
+  ],
+  "interface": {
+    "displayName": "Matt Productivity",
+    "shortDescription": "Skills for thinking, communication, and handoffs",
+    "longDescription": "A focused collection of productivity skills for questioning plans, teaching concepts, writing for agents, and handing work between sessions.",
+    "developerName": "Matt Pocock",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://www.aihero.dev/s/skills-newsletter",
+    "defaultPrompt": [
+      "Help me choose the right productivity skill for this task."
+    ]
+  }
+}

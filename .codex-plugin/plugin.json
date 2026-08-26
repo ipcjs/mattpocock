@@ -1,0 +1,39 @@
+{
+  "name": "mattpocock-skills",
+  "version": "1.2.4",
+  "description": "Matt Pocock's promoted engineering and productivity skills for real software work.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/ipcjs/mattpocock",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "tdd",
+    "code-review",
+    "grilling",
+    "domain-modeling",
+    "productivity"
+  ],
+  "skills": [
+    "./skills/engineering",
+    "./skills/productivity"
+  ],
+  "interface": {
+    "displayName": "Matt Pocock Skills",
+    "shortDescription": "Engineering and productivity skills for real software work",
+    "longDescription": "A managed collection of composable engineering and productivity skills for planning, implementation, testing, review, and technical decision-making.",
+    "developerName": "Matt Pocock",
+    "category": "Engineering",
+    "capabilities": [
+      "Skills"
+    ],
+    "websiteURL": "https://www.aihero.dev/s/skills-newsletter",
+    "defaultPrompt": [
+      "Help me choose the right skill for this engineering task."
+    ]
+  }
+}

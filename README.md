@@ -24,7 +24,7 @@ If you want to keep up with changes to these skills, and any new ones I create, 
 
 ## Installation (30-second setup)
 
-Two ways in, two philosophies. **The [Claude Code plugin](https://code.claude.com/docs/en/plugins)** installs the whole set as a managed, read-only bundle that updates when I ship, so you subscribe rather than fork. **[skills.sh](https://skills.sh/mattpocock/skills)** copies editable skill files into your project, so you can hack on them and make them your own. Pick one: installing both leaves you with every skill twice.
+Two philosophies. **The native Claude Code and Codex plugins** install the whole set as managed, read-only bundles, so you subscribe rather than copy the files. **[skills.sh](https://skills.sh/mattpocock/skills)** copies editable skill files into your project for other agents, so you can hack on them and make them your own. Pick one route per agent: installing a plugin and copied skills together leaves you with every skill twice.
 
 ### 1. Get the skills
 
@@ -46,22 +46,32 @@ It's in Claude Code's official marketplace, so there's nothing to add first, and
 </details>
 
 <details>
-<summary><strong>Codex, and other agents</strong></summary>
+<summary><strong>Codex</strong></summary>
+
+```bash
+codex plugin marketplace add ipcjs/mattpocock
+codex plugin add mattpocock-skills@ipcjs
+```
+
+The plugin is distributed from the `ipcjs/mattpocock` fork because the change is not accepted upstream. It installs the complete promoted skill set as a managed plugin.
+
+</details>
+
+<details>
+<summary><strong>Other agents</strong></summary>
 
 ```bash
 npx skills@latest add mattpocock/skills
 ```
 
-Pick the skills you want, and which coding agents to install them on. **The installer lets you choose which skills to take, so make sure `setup-matt-pocock-skills` is one of them.**
-
-A native Codex plugin is on the roadmap (see [`.agents/adr/0002-ship-as-a-claude-code-plugin.md`](./.agents/adr/0002-ship-as-a-claude-code-plugin.md)).
+Pick the skills you want, and which coding agents to install them on. **The installer lets you choose which skills to take: make sure `setup-matt-pocock-skills` is one of them.**
 
 </details>
 
 <details>
 <summary><strong>For tinkerers</strong></summary>
 
-Use the same installer, on any agent, including Claude Code:
+Use the same installer on other Agent Skills-compatible tools, or on Claude Code when you prefer editable copies:
 
 ```bash
 npx skills@latest add mattpocock/skills
