@@ -1,6 +1,6 @@
 {
   "name": "matt-in-progress",
-  "version": "1.2.4",
+  "version": "1.3.1",
   "description": "Matt Pocock's in-progress skills published for testing and feedback.",
   "author": {
     "name": "Matt Pocock",
@@ -16,10 +16,9 @@
     "feedback"
   ],
   "skills": [
+    "./chief-of-staff",
     "./claude-handoff",
-    "./implement-spec",
     "./loop-me",
-    "./retro",
     "./setup-ts-deep-modules",
     "./writing-beats",
     "./writing-fragments",
